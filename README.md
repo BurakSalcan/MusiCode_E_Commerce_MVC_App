@@ -1,2 +1,2 @@
 # MusiCode_E_Commerce_MVC_App
- InitialCommit
+ MVC tabanlı CodeFirstMigration Kullanılarak hazırlanmış Eticaret sistemi
