@@ -12,9 +12,9 @@ namespace MusiCodeWebApp.Models
         {
         }
 
-        public DbSet<ManagerRole> managerRoles { get; set; }
+        public DbSet<ManagerRole> ManagerRoles { get; set; }
 
-        public DbSet<Manager> managers { get; set; }
+        public DbSet<Manager> Managers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

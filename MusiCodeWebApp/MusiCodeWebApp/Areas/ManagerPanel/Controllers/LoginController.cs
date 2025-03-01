@@ -19,7 +19,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                 string mail = SavedCookie.Values["mail"];
                 string password = SavedCookie.Values["Password"];
 
-                Manager m = db.managers.FirstOrDefault(x => x.Mail == mail && x.Password == password);
+                Manager m = db.Managers.FirstOrDefault(x => x.Mail == mail && x.Password == password);
                 if (m != null)
                 {
                     if (m.IsActive)
@@ -42,7 +42,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
         {
             if (ModelState.IsValid)
             {
-                Manager m = db.managers.FirstOrDefault(x => x.Mail == model.Mail && x.Password == model.Password);
+                Manager m = db.Managers.FirstOrDefault(x => x.Mail == model.Mail && x.Password == model.Password);
                 if (m != null)
                 {
                     if (m.IsActive)
@@ -60,15 +60,27 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                     }
                     else
                     {
-                        ViewBag.mesaj = "Kullanıcı hesabınız askıya alınmıştır.";
+                        ViewBag.mesaj = "Kullanıcı hesabınız askıya alınmıştır";
                     }
                 }
                 else
                 {
-                    ViewBag.mesaj = "Kullanıcı Bulunamadı.";
+                    ViewBag.mesaj = "Kullanıcı bulunamadı";
                 }
             }
             return View(model);
+        }
+        public ActionResult LogOut()
+        {
+            Session["ManagerSession"] = null;
+            if (Request.Cookies["ManagerCookie"] != null)
+            {
+                HttpCookie SavedCookie = Request.Cookies["ManagerCookie"];
+                SavedCookie.Expires = DateTime.Now.AddDays(-1);
+                Response.Cookies.Add(SavedCookie);
+            }
+
+            return RedirectToAction("Index", "Login");
         }
     }
 }
