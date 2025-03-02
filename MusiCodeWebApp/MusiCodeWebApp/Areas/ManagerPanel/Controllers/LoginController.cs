@@ -17,7 +17,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
             {
                 HttpCookie SavedCookie = Request.Cookies["ManagerCookie"];
                 string mail = SavedCookie.Values["mail"];
-                string password = SavedCookie.Values["Password"];
+                string password = SavedCookie.Values["password"];
 
                 Manager m = db.Managers.FirstOrDefault(x => x.Mail == mail && x.Password == password);
                 if (m != null)
@@ -28,10 +28,6 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                         return RedirectToAction("Index", "Home");
                     }
                 }
-                HttpCookie cookie = new HttpCookie("ManagerCookie");
-                cookie.Expires = DateTime.Now.AddDays(-10);
-                Response.Cookies.Add(cookie);
-
             }
             return View();
         }

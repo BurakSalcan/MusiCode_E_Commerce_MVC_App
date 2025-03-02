@@ -7,9 +7,9 @@ using System.Web.Mvc;
 
 namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
 {
+    [ManagerLoginRequiredFilter]
     public class HomeController : Controller
     {
-        [ManagerLoginRequiredFilter]
         public ActionResult Index()
         {
             return View();

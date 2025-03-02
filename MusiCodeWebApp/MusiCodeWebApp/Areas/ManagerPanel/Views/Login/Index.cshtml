@@ -26,12 +26,12 @@
                     @ViewBag.mesaj
                 </div>
             }
-            @Html.ValidationSummary();
+            @Html.ValidationSummary()
             <div class="row">
-                @Html.EditorFor(x => x.Mail, new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Mail Adresiniz" } })
+                @Html.EditorFor(x => x.Mail, "", new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Mail Adresiniz" } })
             </div>
             <div class="row">
-                @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Şifreniz" } })
+                @Html.EditorFor(x => x.Password, "", new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Şifreniz" } })
             </div>
             <div class="row">
                 @Html.EditorFor(x => x.RememberMe) <label for="RememberMe">Unutma Beni... Unutama Beni...</label>
@@ -43,3 +43,4 @@
     </div>
 </body>
 </html>
+

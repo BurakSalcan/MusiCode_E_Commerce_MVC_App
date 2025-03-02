@@ -13,7 +13,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Filters
         MusiCodeDBModel db = new MusiCodeDBModel();
         public void OnAuthentication(AuthenticationContext filterContext)
         {
-            //Kontrol işlemlerimizi bu alanda yapacağız.
+            //Kontrol işlemlerimizi bu alanda yapacağız
             if (!string.IsNullOrEmpty(Convert.ToString(filterContext.HttpContext.Session["ManagerSession"])))
             {
                 if (filterContext.HttpContext.Request.Cookies["ManagerCookie"] != null)
@@ -39,7 +39,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Filters
 
         public void OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)
         {
-            //Kontrol sonrasındaki yönlendirme gibi davranışları bu alanda belirleyeceğiz.
+            //Kontrol sonrasındaki yönlendirme gibi davranışları bu alanda belirleyeceğiz
             if (filterContext.Result == null || filterContext.Result is HttpUnauthorizedResult)
             {
                 filterContext.Result = new RedirectResult("~/ManagerPanel/Login/Index");

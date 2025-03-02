@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|c:\\users\\burak\\source\\repos\\musicodewebapp\\musicodewebapp\\areas\\managerpanel\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|solutionrelative:musicodewebapp\\areas\\managerpanel\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\musicodewebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|solutionrelative:musicodewebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|c:\\users\\burak\\source\\repos\\musicodewebapp\\musicodewebapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|solutionrelative:musicodewebapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T10:21:31.087Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T19:26:14.302Z",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MusiCodeWebApp\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Models\\Category.cs",
+              "RelativeToolTip": "MusiCodeWebApp\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T18:34:38.932Z",
               "EditorCaption": ""
             }
           ]
