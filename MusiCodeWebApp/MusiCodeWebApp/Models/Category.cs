@@ -8,23 +8,25 @@ namespace MusiCodeWebApp.Models
 {
     public class Category:Entity
     {
-        public Category() 
+        public Category()
         {
             IsDeleted = false;
             IsActive = true;
         }
-        
-        [Display(Name ="İsim")]
-        [Required(ErrorMessage ="Bu alan zorunludur.")]
-        [StringLength(maximumLength:75, ErrorMessage ="Bu alan en fazla 75 karakter olmalıdır.")]
+
+        [Display(Name = "İsim")]
+        [Required(ErrorMessage = "Bu alan zorunludur")]
+        [StringLength(maximumLength: 75, ErrorMessage = "bu alan en fazla 75 karakter olmalıdır")]
         public string Name { get; set; }
 
-        [Display(Name ="Açıklama")]
+        [Display(Name = "Açıklama")]
         [DataType(DataType.MultilineText)]
-        [StringLength(maximumLength:500, ErrorMessage ="Bu alan en fazla 500 karakter olmalıdır.")]
+        [StringLength(maximumLength: 500, ErrorMessage = "bu alan en fazla 500 karakter olmalıdır")]
         public string Description { get; set; }
 
-        [Display(Name ="Durum")]
+        [Display(Name = "Durum")]
         public bool IsActive { get; set; }
+
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

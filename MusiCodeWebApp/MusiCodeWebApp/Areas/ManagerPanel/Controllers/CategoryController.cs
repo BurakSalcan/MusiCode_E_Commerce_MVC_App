@@ -22,6 +22,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult Create(Category model)
         {
@@ -52,6 +53,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                 }
             }
             return RedirectToAction("Index", "Category");
+
         }
         [HttpPost]
         public ActionResult Edit(Category model)
@@ -72,7 +74,6 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
             }
             return View(model);
         }
-
         public ActionResult Delete(int? id)
         {
             if (id != null)
