@@ -6,7 +6,7 @@ using System.Web;
 
 namespace MusiCodeWebApp.Models
 {
-    public class Category:Entity
+    public class Category : Entity
     {
         public Category()
         {

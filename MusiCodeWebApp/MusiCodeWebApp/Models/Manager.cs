@@ -7,7 +7,7 @@ using System.Web;
 
 namespace MusiCodeWebApp.Models
 {
-    public class Manager:Entity
+    public class Manager : Entity
     {
         public int ManagerRole_ID { get; set; }
 

@@ -18,8 +18,8 @@
         </div>
         @using (Html.BeginForm())
         {
-            //AntiForgeryToken kullanımı, web uygulamalarında Cross-Site Request Forgery(CSRF) saldırılarını önlemek için geliştirilmiş bir güvenlik mekanizmasıdır.
             @Html.AntiForgeryToken()
+            //AntiForgeryToken kullanımı, web uygulamalarında Cross-Site Request Forgery(CSRF) saldırılarını önlemek için geliştirilmiş bir güvenlik mekanizmasıdır.
             if (ViewBag.mesaj != null)
             {
                 <div class="validation-summary-errors">
@@ -43,4 +43,5 @@
     </div>
 </body>
 </html>
+
 

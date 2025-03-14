@@ -21,7 +21,7 @@
             <label class="validationmesage">@ViewBag.mesaj</label>
         }
         <div class="row">
-            <label>İsim</label>
+            <label>Isim</label>
             @Html.EditorFor(x => x.Name, new { htmlAttributes = new { @class = "textbox" } })
             @Html.ValidationMessageFor(x => x.Name, "", new { @class = "validationmesage" })
         </div>

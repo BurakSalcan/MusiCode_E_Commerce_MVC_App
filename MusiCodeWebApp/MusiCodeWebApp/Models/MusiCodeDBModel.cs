@@ -20,6 +20,7 @@ namespace MusiCodeWebApp.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+
         }
     }
 }
