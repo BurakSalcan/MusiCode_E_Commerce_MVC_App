@@ -8,7 +8,6 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
 {
     public class SystemController : Controller
     {
-        // GET: ManagerPanel/System
         public ActionResult Error()
         {
             return View();

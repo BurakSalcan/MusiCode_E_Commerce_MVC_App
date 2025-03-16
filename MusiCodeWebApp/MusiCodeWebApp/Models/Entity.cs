@@ -8,7 +8,6 @@ namespace MusiCodeWebApp.Models
     public class Entity
     {
         public int ID { get; set; }
-
         public bool IsDeleted { get; set; }
     }
 }

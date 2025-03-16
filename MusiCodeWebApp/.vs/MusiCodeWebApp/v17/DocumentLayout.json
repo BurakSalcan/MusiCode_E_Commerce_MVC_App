@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|c:\\users\\burak\\source\\repos\\musicodewebapp\\musicodewebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|solutionrelative:musicodewebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|c:\\users\\burak\\source\\repos\\musicodewebapp\\musicodewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E04066D6-6876-4338-BCFC-F70DF2F2FB4C}|MusiCodeWebApp\\MusiCodeWebApp.csproj|solutionrelative:musicodewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MusiCodeWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MusiCodeWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\MusiCodeWebApp\\MusiCodeWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MusiCodeWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T19:11:23.518Z",
+              "WhenOpened": "2025-03-16T10:23:40.499Z",
               "EditorCaption": ""
             }
           ]
