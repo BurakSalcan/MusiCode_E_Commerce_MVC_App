@@ -15,10 +15,10 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
         MusiCodeDBModel db = new MusiCodeDBModel();
         public ActionResult Index()
         {
-            return View(db.Products.Where(x => x.IsDeleted == false).ToList());
+            return View(db.Products.Where(x=> x.IsDeleted == false).ToList());
         }
 
-
+      
         public ActionResult Details(int id)
         {
             return View();
@@ -32,7 +32,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
             return View();
         }
 
-
+        
         [HttpPost]
         public ActionResult Create(Product Model, HttpPostedFileBase image)
         {
@@ -90,7 +90,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                 {
                     if (!p.IsDeleted)
                     {
-                        ViewBag.Category_ID = new SelectList(db.Categories.Where(x => x.IsDeleted == false), "ID", "Name", p.Category_ID);
+                        ViewBag.Category_ID = new SelectList(db.Categories.Where(x => x.IsDeleted == false), "ID", "Name",p.Category_ID);
                         ViewBag.Brand_ID = new SelectList(db.Brands.Where(x => x.IsDeleted == false), "ID", "Name", p.Brand_ID);
                         return View(p);
                     }
@@ -151,7 +151,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                 }
             }
             return View(Model);
-
+          
         }
         public ActionResult Delete(int? id)
         {

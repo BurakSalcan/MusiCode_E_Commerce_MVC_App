@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MusiCodeWebApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("HP")]
 [assembly: AssemblyProduct("MusiCodeWebApp")]
-[assembly: AssemblyCopyright("Copyright ©  2025")]
+[assembly: AssemblyCopyright("Copyright © HP 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e04066d6-6876-4338-bcfc-f70df2f2fb4c")]
+[assembly: Guid("81dd8b22-7bf2-465e-8ee7-b7018c2ddccd")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -76,7 +76,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                 SavedCookie.Expires = DateTime.Now.AddDays(-1);
                 Response.Cookies.Add(SavedCookie);
             }
-
+           
             return RedirectToAction("Index", "Login");
         }
     }

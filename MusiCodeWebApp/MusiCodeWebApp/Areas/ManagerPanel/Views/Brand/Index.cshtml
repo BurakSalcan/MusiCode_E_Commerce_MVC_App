@@ -21,7 +21,7 @@
         <tr>
             <th>@Html.DisplayNameFor(model => model.ID)</th>
             <th>@Html.DisplayNameFor(model => model.Name)</th>
-
+           
             <th>Durum</th>
             <th>Seçenekler</th>
         </tr>
@@ -30,7 +30,7 @@
             <tr>
                 <td>@item.ID</td>
                 <td>@item.Name</td>
-
+               
                 <td>@item.IsActive</td>
                 <td>
                     <a href="@Url.Action("Edit","Brand", new {id = item.ID})" class="editbutton">Düzenle</a>

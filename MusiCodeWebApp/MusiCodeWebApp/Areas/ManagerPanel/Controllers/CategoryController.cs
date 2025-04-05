@@ -14,7 +14,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
         MusiCodeDBModel db = new MusiCodeDBModel();
         public ActionResult Index()
         {
-            return View(db.Categories.Where(x => x.IsDeleted == false).ToList());
+            return View(db.Categories.Where(x=> x.IsDeleted == false).ToList());
         }
 
         [HttpGet]
@@ -38,6 +38,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                     db.Categories.Add(model);
                     db.SaveChanges();
                     return RedirectToAction("Index", "Category");
+
                 }
                 catch
                 {
@@ -58,7 +59,7 @@ namespace MusiCodeWebApp.Areas.ManagerPanel.Controllers
                 }
             }
             return RedirectToAction("Index", "Category");
-
+           
         }
         [HttpPost]
         public ActionResult Edit(Category model)

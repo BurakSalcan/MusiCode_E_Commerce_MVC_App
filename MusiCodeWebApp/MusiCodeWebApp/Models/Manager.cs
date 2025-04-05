@@ -7,26 +7,26 @@ using System.Web;
 
 namespace MusiCodeWebApp.Models
 {
-    public class Manager : Entity
+    public class Manager:Entity
     {
         public int ManagerRole_ID { get; set; }
 
         [ForeignKey("ManagerRole_ID")]
         public virtual ManagerRole managerRole { get; set; }
 
-        [Display(Name = "Isim")]
-        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
-        [StringLength(maximumLength: 75, ErrorMessage = "Bu alan en fazla 75 karakter olabilir")]
+        [Display(Name ="Isim")]
+        [Required(ErrorMessage ="Bu alan boş bırakılamaz")]
+        [StringLength(maximumLength:75, ErrorMessage ="Bu alan en fazla 75 karakter olabilir")]
         public string Name { get; set; }
 
         [Display(Name = "Soyisim")]
-        [StringLength(maximumLength: 75, ErrorMessage = "Bu alan en fazla 75 karakter olabilir")]
+        [StringLength(maximumLength:75, ErrorMessage = "Bu alan en fazla 75 karakter olabilir")]
         public string Surname { get; set; }
 
         [Display(Name = "E-Posta")]
         [DataType(DataType.EmailAddress)]
         [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
-        [StringLength(maximumLength: 200, MinimumLength = 5, ErrorMessage = "Bu alan 5 - 200 karakter arasında olabilir")]
+        [StringLength(maximumLength:200, MinimumLength = 5, ErrorMessage ="Bu alan 5 - 200 karakter arasında olabilir")]
         public string Mail { get; set; }
 
         [Display(Name = "Şifre")]

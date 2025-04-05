@@ -19,7 +19,7 @@
         @using (Html.BeginForm())
         {
             @Html.AntiForgeryToken()
-            //AntiForgeryToken kullanımı, web uygulamalarında Cross-Site Request Forgery(CSRF) saldırılarını önlemek için geliştirilmiş bir güvenlik mekanizmasıdır.
+            //Bu kullanım web uygulamarında Cross-Site Request Forgery(CSRF) saldırılarını önlemek için geliştirilmiş güvenlik mekanizmasıdır.
             if (ViewBag.mesaj != null)
             {
                 <div class="validation-summary-errors">
@@ -28,10 +28,10 @@
             }
             @Html.ValidationSummary()
             <div class="row">
-                @Html.EditorFor(x => x.Mail, "", new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Mail Adresiniz" } })
+                @Html.EditorFor(x=> x.Mail,"", new { htmlAttributes= new { @class="formTextbox", @placeholder="Mail Adresiniz" }})
             </div>
             <div class="row">
-                @Html.EditorFor(x => x.Password, "", new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Şifreniz" } })
+               @Html.EditorFor(x=> x.Password,"", new { htmlAttributes = new { @class = "formTextbox", @placeholder = "Şifreniz" } })
             </div>
             <div class="row">
                 @Html.EditorFor(x => x.RememberMe) <label for="RememberMe">Unutma Beni... Unutama Beni...</label>
@@ -43,6 +43,3 @@
     </div>
 </body>
 </html>
-
-
-

@@ -6,10 +6,10 @@ using System.Web;
 
 namespace MusiCodeWebApp.Models
 {
-    public class ManagerRole : Entity
+    public class ManagerRole:Entity
     {
-        [Display(Name = "Rol Adı")]
-        [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
+        [Display(Name="Rol Adı")]
+        [Required(ErrorMessage ="Bu alan boş bırakılamaz")]
         public string Name { get; set; }
 
         public virtual ICollection<Manager> managers { get; set; }
